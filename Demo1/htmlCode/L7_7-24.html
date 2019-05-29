@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>7-24函数3</title>
+</head>
+<body>
+	<!-- <script type="text/javascript">
+		function people(){
+			return arguments.length;
+		}
+		var num=people('职业','age','姓名')
+		 alert(num);
+	</script> -->
+	<!-- <script type="text/javascript">
+		function hello(){
+			if(arguments.length==0){
+				return('hello world')
+			}
+			else if(arguments.length==1){
+				return('hellow'+arguments[0])
+			}
+			else if(arguments.length==2){
+				return('hello'+arguments[0]+arguments[1])
+			}
+		}
+		var str1=hello();
+		var srt2=hello(1)
+		alert(str1);
+		alert(srt2);
+	</script> -->
+	<script type="text/javascript">
+		function sum(){
+			var sumg=0;
+			for(var i=0;i<arguments.length;i++){
+				sumg+=arguments[i]
+			}
+			return (sumg);
+		}
+		alert(sum(1,2,3,4,5));
+	</script>
+</body>
+</html>

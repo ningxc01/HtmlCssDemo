@@ -1,0 +1,33 @@
+  @charset="UTF-8";
+  div{
+  	width: 200px;
+  	height: 100px;
+  	margin:10px;
+  	padding: 50px;
+  	background: green;
+  	border:5px groove rgba(200,100,50,0.6);
+  	float: left;
+  }
+  #div1:hover{
+  	transform: translate(50px,50px);
+  }
+  #div2:hover{
+  		/*transform: translate(100px,0px);*/
+  		transform: translateX(-50px);
+  }
+  #div3:hover{
+  	/*transform: translate(0px,-100px);*/
+  	transform: translateY(50px);
+  }
+  #div4:hover{
+  	transform: scale(0.6);
+  }
+  #div4:hover{
+  	transform: scale(0.7,1.2);
+  }
+  #div5:hover{
+  	transform: scaleX(0.7);
+  }
+  #div6:hover{
+  	transform: rotate(60deg);
+  }

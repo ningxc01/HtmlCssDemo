@@ -1,0 +1,28 @@
+@charset="UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 80px;
+	background: rgba(25,25,25,0.25);
+}
+aside{
+	width: 30%;
+	height: 500px;
+	background: orange;
+	float: left;
+	border:2px solid red;
+	box-sizing: border-box;
+}
+section{
+	width: 70%;
+	height:500px;
+	background: rgba(100,255,50,0.25);
+	float: right;
+}
+footer{
+	height: 120px;
+	background: rgba(200,50,150,0.5);
+	clear: both;
+}

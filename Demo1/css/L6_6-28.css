@@ -1,0 +1,38 @@
+@charset="UTF-8";
+body{margin:0;}
+#div1{
+	background: green;
+	width: 50%;
+	height: 200px;
+	/*overflow: visible;
+	overflow: hidden;
+	overflow: scroll;*/
+	overflow: auto;
+	}
+#div2{
+	background: rgba(200,255,200,0.5);
+	width: 50%;
+	height: 200px;
+	white-space: nowrap;
+	overflow: scroll;
+	/*text-overflow: ellipsis;*/
+	
+	}
+	#div3{
+		background: green;
+		width: 50%;
+		height: 200px;
+		overflow: auto;	
+		position: relative;
+		left: 200px;
+	}
+	#div4{
+		background: rgba(100,100,100,0.5);
+		width: 50%;
+		height: 200px;
+		position: absolute;
+		/*overflow: auto;*/
+		left: 200px;
+		position: fixed;
+		left: 200px;
+	}

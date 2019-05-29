@@ -1,0 +1,51 @@
+@charset="UTF-8";
+body{
+	margin:0;
+}
+div{
+	background-image: url(../imageDate/lufei.jpg);
+}
+#div1{
+	float: left;
+	text-align: center;
+	width: 40%;
+	height: 200px;
+	background: rgba(255,100,255,0.5);
+	border:2px solid black;
+	border-width: thin;
+	border-width: thick;
+	border-width: medium;
+}
+#div2{
+	float: left;
+	text-align: center;
+	width: 40%;
+	height: 200px;
+	background: rgba(50,255,100,0.5);
+	border:medium rgba(255,200,0,0.5);
+	border-style: dotted;
+	border-style: dashed;
+	border-style: double;
+	border-style: groove;
+	border-style: ridge;
+	border-style: inset;
+	}
+#div3{
+	float: left;
+	text-align: center;
+	width: 40%;
+	height: 200px;
+	border:medium solid rgba(200,100,0,1);
+	border-radius: 10px;
+	border-radius:  3em;
+	border-radius: 3em 1em;
+}
+#div4{
+	float: left;
+	text-align: center;
+	width: 40%;
+	height: 200px;
+	border:medium solid rgba(200,100,0,1);
+	border-radius: 1em/3em ;
+	border-top-left-radius: 3em;
+}

@@ -1,0 +1,48 @@
+@charset="UTF-8";
+body{margin:0;}
+#div1{
+	background: rgba(100,200,150,0.5);
+	width: 50%;
+	height: 200px;
+	/*overflow: visible;
+	overflow: hidden;
+	overflow: scroll;*/
+	overflow: auto;
+	position: relative;
+	left: 50px;
+	top: 150px;
+	z-index: 3
+	}
+#div2{
+	background: rgba(200,255,200,0.5);
+	width: 50%;
+	height: 200px;
+	white-space: nowrap;
+	overflow: scroll;
+	/*text-overflow: ellipsis;*/
+	position: relative;
+	left: 100px;
+	top: 70px;
+	
+	}
+	#div3{
+		background: rgba(50,255,100,0.5);
+		width: 50%;
+		height: 200px;
+		overflow: auto;	
+		position: relative;
+		left: 200px;
+		top: 0px;
+		z-index: 2;
+
+	}
+	#div4{
+		background: rgba(255,50,150,0.5);
+		width: 50%;
+		height: 200px;
+		overflow: auto;
+		position: relative;
+		left: 250px;
+		top: -70px;
+		z-index: 4
+	}

@@ -1,0 +1,42 @@
+@charset="UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+#div1{
+	width: 15%;
+	height: 50px;
+	background: green;
+	display: inline-block;
+	/*vertical-align: top;*/
+	vertical-align: bottom;
+}
+#div2{
+	width:15%;
+	height: 50px;
+	background: blue;
+	display: inline-block;
+	vertical-align: middle;
+}
+#div3{
+	width: 15%;
+	height: 50px;
+	background: red;
+	display: inline-block;
+
+	
+}
+#div4{
+	width: 15%;
+	height: 50px;
+	background: yellow;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+#table{
+	width: 50%;
+	height: 200px;
+	margin:0 auto;
+	vertical-align: text-top;
+}
+th{background: green;}

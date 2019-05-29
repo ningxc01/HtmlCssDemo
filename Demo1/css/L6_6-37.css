@@ -1,0 +1,30 @@
+div{
+	margin :10px;
+	width: 40%;
+	height: 200px;
+	background: rgba(50,100,150,0.6);
+	border:2px solid green;
+	float: left;
+	text-align: center;
+}
+#div1{
+	border-image-source: url(../imageDate/lufei.jpg);
+	border-image-slice:20;
+	border-image-width: 10px;
+	border-image-outset: 5px;
+	border-image-repeat: stretch;
+}
+#div2{
+	border-image-source: url(../imageDate/lufei.jpg);
+	border-image-slice:30 fill;
+	border-image-width: 10px;
+	border-image-outset: 5px;
+	border-image-repeat: repeat round;
+}
+#div3{
+	border-image-source: url(../imageDate/lufei.jpg);
+	border-image-slice:30 fill;
+	border-image-width: 10px;
+	border-image-outset: 5px;
+	border-image-repeat: stretch repeat;
+}

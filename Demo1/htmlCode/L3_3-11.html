@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>3.11课堂演示select-datelist</title>
+</head>
+<body>
+	<h3>选择您要搜索的课程</h3>
+	<form method="" name="select" action="">
+		<select size="1">
+			<optgroup label="第一组">
+				<option value="html5" label="html5课程">html5</option><br>
+				<option value="CSS">css</option><br>
+				<option value="javascrip">javascrip</option><br>
+				<option value="c++">c++</option><br>
+			</optgroup>
+			<optgroup label="第二组">
+				<option value="html5">html5</option><br>
+				<option value="CSS">css</option><br>
+				<option value="javascrip">javascrip</option><br>
+				<option value="c++">c++</option><br>
+			</optgroup>
+			<input type="submit" name="">
+		</select><br><br>
+		<select size="3" multiple="3" autofocus="">
+			<optgroup label="第一组">
+				<option value="html5">html5</option><br>
+				<option value="CSS">css</option><br>
+				<option value="javascrip">javascrip</option><br>
+				<option value="c++">c++</option><br>
+			</optgroup>
+			<optgroup label="第二组">
+				<option value="html5">html5</option><br>
+				<option value="CSS">css</option><br>
+				<option value="javascrip">javascrip</option><br>
+				<option value="c++">c++</option><br>
+			</optgroup>
+			<input type="submit" name="">
+		</select>
+	</form><br><br>
+	<form>
+		<h3>选择您要产找的课程</h3>
+		<datalist>
+			<option>css</option>
+			<option>html5</option>
+			<option>js</option>
+		</datalist>
+	</form><br><br>
+	<form>
+		请输入搜索项：<input type="text" name="" list="lang"><br>
+		<datalist id="lang">
+			<option>html</option>
+			<option>css</option>
+			<option>javascrip</option>
+			<option>c++</option>
+		</datalist>
+	</form>
+</body>
+</html>

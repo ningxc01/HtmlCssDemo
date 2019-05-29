@@ -1,0 +1,19 @@
+@charset="UTF-8";
+#div1{font-size: 50px;color: red;text-align: center;text-decoration: line-through;}
+#div2{font-size: 100%;text-align: justify;line-height: 5em;text-indent:50px;text-decoration: underline;}
+#div3{font-size: 2em;letter-spacing: 1em;}
+#div4{font-size: xx-small;}
+#div5{font-size: x-large;}
+#div6{font-variant: small-caps;}
+#div7{font-style: italic;}
+#div8{font-weight: bold;}
+#div9{font-family: 隶书}
+#div10{font:bold italic 40px 隶书;}
+#p1{word-spacing: em}
+#p2{text-transform: capitalize;}
+#p3{text-shadow:5px 5px 5px blue,8px 8px 5px rgba(255,20,50,1)}
+#p4{white-space: pre-wrap;-webkit-text-fill-color:green;}
+#p5{white-space: nowrap;-webkit-text-stroke:2px red; font-size: 20px}
+#p6{white-space: pre-line;}
+#p7{direction: rtl;unicode-bidi: bidi-override;}
+#p8{text-fill-color:blue;-ms-text-fill-color:blue;-moz-text-stroke:2px red;}

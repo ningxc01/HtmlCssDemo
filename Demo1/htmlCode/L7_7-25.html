@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8">
+	<title>7-25函数在canvas中的应用</title>
+	<!--  <link rel="stylesheet" type="text/css" href="../css/L7_7-25.css">  -->
+</head>
+<body ><!-- onload="draw()" -->
+	<canvas id="myCanvas" width="600" height="300" style="border:1px solid #c3c3c3;"></canvas>
+	<!--  <script type="text/javascript">
+	function drow(){
+		var c=document.getElementById("myCanvas");
+		var cxt=c.getContext("2d");
+			cxt.fillStyle="#FF0000";
+			cxt.beginPath();
+			cxt.arc(70,18,15,0,Math.PI*2,true);
+			cxt.closePath();
+			cxt.fill();
+		}
+		drow();
+	</script> 
+	<script type="text/javascript">
+		function draw(x,y){
+		var c=document.getElementById("myCanvas");
+		var cxt=c.getContext("2d");
+			cxt.fillStyle="rgb(20,"+x+','+y+")";
+			cxt.beginPath();
+			cxt.arc(x,y,10,0,Math.PI*2,true);
+			cxt.closePath();
+			cxt.fill();
+		}
+			// draw(50,50);
+			// draw(50,80);
+			// draw(50,110);
+		 for(var i=0;i<12;i++){
+		 	for(var j=0;j<24;j++){
+		 		draw(12.5+j*25,12.5+i*25)
+		 	}
+		 }
+	</script>  -->
+
+	<script>
+	function draw(x,y){
+		var c=document.getElementById("myCanvas");
+		var cxt=c.getContext("2d");
+		for(var i=0;i<12;i++){
+		 	for(var j=0;j<24;j++){
+		 		cxt.fillStyle="rgb(20,"+Math.floor(255-11.5*i)+','+Math.floor(255-11.5*j)+")";
+				cxt.beginPath();
+				cxt.arc(12.5+j*25,12.5+i*25,10,0,Math.PI*2,true);
+				cxt.closePath();
+				cxt.fill();
+		 	}
+		 }
+		}
+		// draw();
+	</script>
+	<input type="button" onclick="draw()" value="点击查看">
+</body>
+</html>

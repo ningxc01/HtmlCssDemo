@@ -1,0 +1,10 @@
+@charset="UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+p{
+	position: absolute;
+	left: 0px;
+	clip: rect(10px,500px,500px,0px);
+}

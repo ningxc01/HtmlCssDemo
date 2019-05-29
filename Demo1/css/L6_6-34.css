@@ -1,0 +1,33 @@
+@charset="UTF-8";
+body{
+	margin: 0;
+}
+#table1{
+	width: 50%;
+	height: 200px;
+	text-align: center;
+	position: fixed;
+	left: 100px;
+	border-collapse: collapse;
+}
+#div1 td{
+	background: rgba(110,50,200,0.5);
+}
+#table2{
+	width: 50%;
+	height: 200px;
+	text-align: center;
+	position: fixed;
+	left: 100px;
+	top: 250px;
+	border-collapse: separate;
+	border-spacing: 10px;
+	caption-side: bottom;
+	table-layout: fixed;
+	empty-cells: hide;
+
+}
+
+#div2 td{
+	background: rgba(255,0,255,0.5);
+}

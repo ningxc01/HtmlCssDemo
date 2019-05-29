@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>开发实例演示弹性盒子布局</title>
+	<style type="text/css">
+		div{
+			font-size: 2em;
+		}
+		#diva,#divb,#divc,#divd,#dive{
+			
+			background: rgba(10,10,10,0.6);
+			display: flex;
+		}
+		.div1{
+			padding: 50px 50px;
+			background: green;
+		}
+		.div2{
+			padding: 50px 30px;
+			background: orange;
+		}
+		.div3{
+			padding: 30px 50px;
+			background: red;
+		}
+		.div4{
+			padding: 30px 30px;
+			background: blue;
+		}
+
+		#diva{
+			align-items: flex-start;
+		}	
+		#divb{
+			align-items: flex-end;
+		}
+		#divc{
+			align-items: center;
+		}
+		#divd{
+			align-items: baseline;
+		}
+		#dive{
+			align-items: stretch;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>align-item：flex-start</h2>
+	<div id="diva">
+		<div class="div1">1</div>
+		<div class="div2">2</div>
+		<div class="div3">3</div>
+		<div class="div4">4</div>
+	</div>
+
+	<h2>align-item:flex-end</h2>
+	<div id="divb">
+		<div class="div1">1</div>
+		<div class="div2">2</div>
+		<div class="div3">3</div>
+		<div class="div4">4</div>
+	</div>
+
+	<h2>align-item:cneter</h2>
+	<div id="divc">
+		<div class="div1">1</div>
+		<div class="div2">2</div>
+		<div class="div3">3</div>
+		<div class="div4">4</div>
+	</div>
+
+	<h2>align-item:baseline</h2>
+	<div id="divd">
+		<div class="div1">1</div>
+		<div class="div2">2</div>
+		<div class="div3">3</div>
+		<div class="div4">4</div>
+	</div>
+
+	<h2>align-item:streth</h2>
+	<div id="dive">
+		<div class="div1">1</div>
+		<div class="div2">2</div>
+		<div class="div3">3</div>
+		<div class="div4">4</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+@charset="UTF-8";
+{color: red}
+h3{color: blue;font-size: 40px}
+div{background: red;color: green;border:2px blue solid}
+/*ph3,p,div{color: red;}*/

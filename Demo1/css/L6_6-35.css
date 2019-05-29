@@ -1,0 +1,14 @@
+@charset="UTF-8";
+ul{
+	width: 30%;
+	height: 100%;
+	background: green;
+	list-style-type: lower-alpha;
+	list-style-type: square;
+	/*list-style-position: inside;*/
+	list-style-image: url(../imageDate/图片1.png);
+}
+ol{
+	list-style-type: lower-roman;
+	list-style-type: circle;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8">
+	<title>7-27Object对象</title>
+</head>
+<body >
+	<!-- <script type="text/javascript">//创建OBJECT对象先创建一个空值再创建方法1
+		var people=new Object();
+			people.name='小明';
+			people.sex='男';
+			people.age=40;
+			alert(people.name)
+	</script> -->
+	<!-- <script type="text/javascript">//创建OBJECT对象先创建一个空值再创建方法2
+		var people={};
+			people.name='小明';
+			people.sex='男';
+			people.age=40;
+			alert(people.age)
+	</script> -->
+	<script type="text/javascript">//创建Object对象，直接在对象中添加属性和值方法3
+		var people={
+			name:'小明',
+			sex:'男',
+			age:'40'
+				}
+				alert(people.sex)//laert(people['age'])
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>5.1综合实例canvas</title>
+	<style type="text/css">
+		canvas{background: #A9A9A0}
+	</style>
+</head>
+	<body>	
+		<canvas id="canvas" width="800" height="600">您的浏览器可能不自持此功能
+		</canvas>
+		<script type="text/javascript">
+		var canvas=document.getElementById('canvas');
+		var	c=canvas.getContext('2d');
+		var	g=c.createLinearGradient(50,50,50,550);
+			g.addColorStop(0,"#000000");
+			g.addColorStop(1,"#FFFFFF");
+			c.fillStyle=g;
+			c.fillRect(50,50,700,500);		
+	</script>
+	</body>
+</html>

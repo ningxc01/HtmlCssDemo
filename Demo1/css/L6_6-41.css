@@ -1,0 +1,48 @@
+@charset="UTF-8";
+div{
+	margin: 2px;
+	border:2px solid red;
+	width: 30%;
+	height: 100px;
+	background: rgba(20,100,50,1);
+	float: left;
+}
+#div1{
+	background-image: url(../imageDate/lufei.jpg);
+	background-color: red;
+	/*background: repeat;*/
+	background-repeat: no-repeat;
+}
+#div2{
+	background-image: url(../imageDate/图片1.png);
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-repeat: repeat;
+}
+#div3{
+	background-image: url(../imageDate/图片1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: right bottom;
+	background-position: 30% 40%;
+	background-position: 30px 40px;
+	/*background-attachment: fixed;*/
+}
+#div4{
+	background-image: url(../imageDate/lufei.jpg);
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-size: contain;*/
+}
+#div5{
+	border:50px solid rgba(100,50,200,0.3);
+	background-image: url(../imageDate/lufei.jpg);
+	background-clip:border-box;
+	/*background-clip: padding-box;
+	background-clip: content-box;*/
+	background-origin: padding-box;
+	background-origin: border-box;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+}

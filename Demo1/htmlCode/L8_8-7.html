@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>canvas实例演示</title>
+</head>
+<body>
+	<canvas id="canvas" width="800" height="400" style="background: rgba(50,100,20,100);"> 
+	非常抱歉 ，您的浏览器目前不支持canvas
+	</canvas>
+	<script type="text/javascript">
+			var c=getElementById("canvas")
+				ctx=c.getContext("2d")	
+			//创建一个表示图片的image对象
+			var img=new Image();
+			img.src="../imageDate/jd.jpg";
+			img.onload=function(){
+			//创建CanvasPattern对象，指定上述图片进行水平和垂直方向的重复平铺
+			var pattern=ctx.createPattern(img,"repeat-y");
+			ctx.fillStyle=pattern;
+			ctx.fillRect(0,0,c.width,c.height);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+@charset="UTF-8";
+div{
+	width: 300px;
+	height: 100px;
+	margin:10px;
+	border:5px solid rgba(100,200,50,0.6);
+}
+#div1{
+	background: radial-gradient(red,blue,orange)
+}
+#div2{
+	background: radial-gradient(circle,red,blue,orange)
+}
+#div3{
+	background: radial-gradient(circle at top,red,blue,orange)
+}
+#div4{
+	background: radial-gradient(circle at right top,red,blue,orange)
+}
+#div5{
+	background:radial-gradient(circle 50px,green 40%,red 50%,orange 70%,blue 20%)
+}
+#div6{
+	background: radial-gradient(circle closest-side,red,green,blue,orange)
+}
+#div7{
+	background: repeating-radial-gradient(circle closest-side,red,orange)
+}

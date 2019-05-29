@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>7-23函数2</title>
+</head>
+<body>
+<!-- 	<script type="text/javascript">
+		function hs(){
+			return('注意了，调用函数是我也不会输出，因为我只是返回值');
+			hs();	
+		}
+		alert("可以直接对返回值进行操作，比如输出它\n"+hs())
+	</script> -->
+	<script type="text/javascript">
+		function sum(sum1,sum2){
+			return sum1+sum2;	
+			alert("函数体中返回值之后的语句不再执行")
+		}
+		var str=sum(3,2);
+		document.write(sum(3,2))
+	</script>
+</body>
+</html>

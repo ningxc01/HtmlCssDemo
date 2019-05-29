@@ -1,0 +1,42 @@
+
+@charset="UTF-8";
+div{
+	width: 800px;
+	height: 600px;
+	padding:40px;
+	border:20px ridge rgba(200,60,30,0.6);
+	font-size: 20px;
+	line-height: 50px;
+	background-image: url(../imageDate/letter1.jpg),
+	 url(../imageDate/letter2.jpg),
+	 url(../imageDate/letter3.jpg);
+	background-repeat: no-repeat,no-repeat,repeat;
+	background-position: left top,right bottom,left; 
+	background-size: 20%,20%,100% 130px;
+	background-clip: border-box,border-box,content-box;
+	background-origin: border-box,border-box,content-box;
+	animation:fz 6s infinite ease; 
+}
+body{
+	perspective: 500px;
+}
+@keyframes sx{
+	0%{
+		transform: rotateY(45deg);
+	}
+	20%{
+		transform: rotateY(180deg);
+	}
+	40%{
+		transform: rotateY(300deg);
+	}
+	60%{transform: rotateY(360deg);
+	}
+	80%{
+		transform: rotateX(120deg);
+	}
+	100%{
+		transform: rotateX(360deg);
+	}
+
+}

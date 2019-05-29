@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8">
+	<title>7-28Object对象</title>
+</head>
+<body >
+	<!-- <script type="text/javascript">
+		function say(){
+			alert('大师兄，师傅不见了')
+		}
+		var people={};
+			people.name='小明';
+			people.sex='男';
+			people.age=40;
+			//delete people.age;
+			people.sa=say;
+
+			people.sa();//用people对象调用sa函数（方法）
+	</script> -->
+	
+	<script type="text/javascript">
+		function say(){
+			return('大师兄，师傅不见了')
+		}
+		var people={};
+			people.name='小明';
+			people.sex='男';
+			people.age=40;
+			people.sa=say;
+			alert(people.sa())
+	</script>
+</body>
+</html>

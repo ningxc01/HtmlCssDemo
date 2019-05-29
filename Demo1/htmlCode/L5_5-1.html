@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>5.1综合实例canvas</title>
+	<style type="text/css">
+		canvas{background: #A9A9A0}
+	</style>
+</head>
+	<body>	
+		<canvas id="canvas" width="1000" height="800">您的浏览器可能不自持此功能
+		</canvas>
+		<script type="text/javascript">
+		var canvas=document.getElementById('canvas');//定义变量获取画布DOM
+		var context=canvas.getContext('2d');//设置绘图环境为2d
+			context.lineWidth=10;
+			context.strokeStyle="#A52A2A";
+			context.moveTo(0,50);
+			context.lineTo(200,200);
+			context.moveTo(0,50);
+			context.lineTo(0,100);
+			context.moveTo(0,100);
+			context.lineTo(200,200);
+			context.stroke();
+			//创建一个绘图
+			context.beginPath();
+			context.lineWidth=5;
+			context.strokeStyle="steelblue";
+			context.rect(300,50,150,100);
+			context.fill();
+			context.stroke();
+			//创建新矩形
+			context.beginPath();
+			context.strokeStyle="#A52A2A"
+			context.strokeRect(350,100,150,100);
+			//创建新矩形，使用组合函数
+			context.beginPath();
+			context.strokeStyle="steelblue";
+			context.lineWidth=5;
+			context.fillRect(400,150,150,100);
+			//创建新绘图填充juxing
+			context.beginPath();
+			lineWidth=5;
+			context.strokeStyle="#A52A2A";
+			context.arc(200,200,100,0,Math.PI*2);
+			context.stroke();
+			//创建一个圆
+			context.beginPath();
+			lineWidth=5;
+			context.strokeStyle="#A52A2A";
+			context.arc(270,270,50,0,Math.PI*2);
+			context.fill();
+			context.stroke();
+			//xin圆
+			context.beginPath();
+			context.fillStyle="red";
+			context.arc(400,400,50,0,Math.PI*2);
+			context.fill();
+			//无描边的圆
+			context.beginPath();
+			context.fillStyle="steelblue";
+			context.arc(350,450,50,0,Math.PI*2);
+			context.fill();
+			context.stroke();
+			//描边填充绘图
+			context.beginPath();
+			context.arc(300,350,70,0,Math.PI/3,true);
+			context.stroke();
+			//圆弧
+			context.beginPath();
+			context.lineWidth=2;
+			context.strokeStyle="black";
+			context.fillStyle="yellow";
+			context.arc(250,350,70,0,Math.PI/2,true);
+			context.fill();
+			context.stroke();
+			//圆弧
+			context.beginPath();
+			context.lineWidth=3;
+			context.strokeStyle="black";
+			context.arc(200,200,50,0,Math.PI/3,true);
+			context.closePath();
+			context.stroke();
+			//绘制闭合圆弧
+			context.beginPath();
+			g.addColorStop(0,"yellow");
+			g.addColorStop(1,"red");
+			context.fillStyle=g;
+			context.fillRect(100,100,100,150);
+			context.stroke();
+	</script>
+	</body>
+</html>
